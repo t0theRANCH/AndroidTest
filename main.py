@@ -38,7 +38,7 @@ class hnnnng(MDApp):
             context = cast('android.content.Context', currentActivity.getApplicationContext())
             Intent = autoclass('android.content.Intent')
 
-            # CODE STARTS HERE
+            # CODE TO DEBUG STARTS HERE
 
             # Use this label to display desired debug text
             label = OutputLabel(text="")
